@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: #eeeeee;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+body .box {
+  height: 450px;
+  width: 400px;
+  background-color: #fff;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .box .imge {
+  height: 215px;
+  width: 215px;
+  background-color: #131313;
+  border-radius: 50%;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 0px;
+  left: 50%;
+}
+
+body .box .imge img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+body .box .text {
+  width: 80%;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+body .box .text h1 {
+  color: #303030;
+}
+
+body .box .text h3 {
+  margin: 5px 0 20px;
+  color: #707070;
+}
+
+body .box .text P {
+  color: #8d8d8d;
+}
+
+body .box .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px 0;
+}
+
+body .box .links img {
+  background-color: #eeeeee;
+  padding: 5px;
+  border-radius: 50%;
+  margin: 5px 8px;
+}
+/*# sourceMappingURL=style.css.map */
